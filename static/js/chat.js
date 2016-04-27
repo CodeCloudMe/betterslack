@@ -1311,3 +1311,17 @@ window.onfocus = function() {
   });
 };
 
+
+
+function showMenu(){
+
+  $('.left-nav').show('slow');
+  setTimeout(function(){
+      $('.right-section').on('click', function(){
+       $('.right-section').off('click');
+      $('.left-nav').hide('slow');
+
+  })
+    }, 500)  
+
+}

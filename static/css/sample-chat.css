@@ -24,6 +24,8 @@ input, button, textarea {
   background: rgba(63, 47, 91, 0.65);
 }
 
+
+
 .init-check {
   display: none;
   position: absolute;
@@ -1225,4 +1227,36 @@ label.chat-input-file.file-upload {
 .modal-invite-bottom__button:focus {
   border: 1px solid #1a64ab;
   background: #328fe6;
+}
+
+
+
+
+
+
+@media screen and (max-width: 780px) {
+    .left-nav {
+        display:none;
+    }
+
+    .modal-guide-create{
+      display:none;
+    }
+
+
+    .chat-empty{
+
+      text-align:left;
+      padding-left:10px;
+    }
+
+    .chat-top-button{
+
+      margin-right:400px;
+    }
+
+    .nav-menu-but{
+
+      display:block;
+    }
 }
