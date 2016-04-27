@@ -16,6 +16,11 @@ if(!isset($channel)){
 	return;
 }
 
+if(!isset($name)){
+	echo('{"status":"fail", "msg":"please send name"}');
+	return;
+}
+
 if(!isset($data)){
 	$data = array();
 	
